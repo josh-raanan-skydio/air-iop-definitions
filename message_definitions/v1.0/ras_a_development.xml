@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- message ID range: 51000 - 51999 -->
+  <!-- command ID range: 51000 - 51999 -->
+  <include>ras_a.xml</include>
+  <version>0</version>
+  <dialect>0</dialect>
+  <enums>
+    </enum>
+    <!-- The MAV_CMD enum entries describe either: -->
+    <!--  * the data payload of mission items (as used in the MISSION_ITEM_INT message) -->
+    <!--  * the data payload of mavlink commands (as used in the COMMAND_INT and COMMAND_LONG messages) -->
+    <!-- ALL the entries in the MAV_CMD enum have a maximum of 7 parameters -->
+    <enum name="MAV_CMD">
+    </enum>
+  </enums>
+  <messages>
+  </messages>
+</mavlink>
